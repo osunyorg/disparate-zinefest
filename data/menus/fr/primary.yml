@@ -5,4 +5,8 @@ items:
   target: "/evenements/"
   kind: page
   children: []
+- title: Invité·es
+  target: "/exposantes/"
+  kind: page
+  children: []
 
