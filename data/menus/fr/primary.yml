@@ -1,12 +1,12 @@
 ---
 title: Menu principal
 items:
-- title: Évènements
-  target: "/evenements/"
-  kind: page
-  children: []
 - title: Invité·es
   target: "/exposantes/"
+  kind: page
+  children: []
+- title: Évènements
+  target: "/evenements/"
   kind: page
   children: []
 - title: Programme
