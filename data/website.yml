@@ -1,6 +1,10 @@
 title: >-
   Zinefest
 default:
+  image:
+    id: 37782d65-a2c0-4cf7-9241-5fca384f0f37
   shared_image:
     id: 4af6cacd-3cd1-4db9-a055-de07db6b60db
 social:
+  instagram: >-
+    https://www.instagram.com/disparate_librairie/
