@@ -5,12 +5,12 @@ items:
   target: "/exposantes/"
   kind: page
   children: []
-- title: Évènements
-  target: "/evenements/"
-  kind: page
-  children: []
 - title: Programme
   target: "/programme/"
+  kind: page
+  children: []
+- title: Évènements
+  target: "/evenements/"
   kind: page
   children: []
 
