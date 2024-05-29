@@ -3,7 +3,27 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
-  summary:
-    position: hero
   search:
     active: false  
+  logo:
+    header: "/assets/images/logo.png"
+    footer: "/assets/images/dealer.png"
+  breadcrumb:
+    position: none #  hero-start |  hero-end | after-hero | none
+  summary:
+    position: content # hero | content
+  events:
+    default_image: true
+    date_format: ":date_long"
+    index:
+      show_categories: false
+      show_author: false
+      show_description: true
+      truncate_description: 200 # Set to 0 to disable truncate
+      layout: grid # grid | list
+  organizations:
+    map_marker_icon: '/assets/images/map-marker.svg'
+  image_sizes:
+    design_system:
+      lightbox:
+        disabled: true
