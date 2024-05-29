@@ -9,8 +9,10 @@ fr:
   params:
     social:
   permalinks:
-    events: /agenda/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
+    events: /evenements/:year-:month-:day-:slug/
+    events_categories: /evenements/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/:slug/
   taxonomies:
     administrator: administrators
     author: authors

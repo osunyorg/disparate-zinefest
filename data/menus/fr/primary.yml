@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Agenda
-  target: "/agenda/"
+- title: Évènements
+  target: "/evenements/"
   kind: page
   children: []
 - title: Équipe
