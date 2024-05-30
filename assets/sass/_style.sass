@@ -1,3 +1,35 @@
 .hero
     border-bottom: 2px solid var(--color-border)
-    margin-bottom: 0
+    .content
+        padding-top: 0
+        figure 
+            figcaption
+                .credit-content
+                    font-size: pxToRem(12)
+
+header#document-header 
+    border-bottom: $header-border-bottom-width solid var(--color-border)
+
+.menu
+    .nav-level-1
+        @include media-breakpoint-down(desktop)
+            li:not(:last-child)
+                border-bottom: $header-border-bottom-width solid var(--color-border)
+        > li 
+            > a
+                text-transform: uppercase
+
+.block
+    @include in-page-without-sidebar    
+        margin-bottom: 0
+        margin-top: 0
+        &:not(:first-child)
+            border-top: $header-border-bottom-width solid var(--color-border)
+
+footer#document-footer
+    border-top: $header-border-bottom-width solid var(--color-border)
+
+.event-sidebar
+    .event-infos
+        > *:not(.event-date)
+            display: none
