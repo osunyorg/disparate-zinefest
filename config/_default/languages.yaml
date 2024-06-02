@@ -8,8 +8,12 @@ fr:
   languageName: Français
   params:
     social:
+      email: >-
+        disparate.asso@gmail.com
       instagram: >-
         https://www.instagram.com/disparate_librairie/
+      facebook: >-
+        https://www.facebook.com/association.disparate
   permalinks:
     events: /evenements/:year-:month-:day-:slug/
     events_categories: /evenements/:slug/
