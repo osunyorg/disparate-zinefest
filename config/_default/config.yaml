@@ -7,7 +7,7 @@ params:
     active: false  
   logo:
     header: "/assets/images/logo.png"
-    footer: "/assets/images/dealer.png"
+    footer: "/assets/images/star.png"
   breadcrumb:
     position: none #  hero-start |  hero-end | after-hero | none
   summary:
@@ -18,7 +18,7 @@ params:
     index:
       show_categories: false
       show_author: false
-      show_description: true
+      show_description: false
       truncate_description: 200 # Set to 0 to disable truncate
       layout: grid # grid | list
   organizations:

@@ -1,14 +1,59 @@
 .hero
-    border-bottom: 2px solid var(--color-border)
+    border-bottom: $header-border-bottom-width solid var(--color-border)
     .content
-        padding-top: 0
         figure 
             figcaption
                 .credit-content
                     font-size: pxToRem(12)
-
+.document-content
+    .block
+        margin-bottom: 0
+        margin-top: 0
+        padding-bottom: var(--block-space-y)
+        padding-top: var(--block-space-y)
+        &:not(:first-child)
+            border-top: $header-border-bottom-width solid var(--color-border)
+        h2.block-title 
+            background-color: $color-background
+            border: $header-border-bottom-width solid var(--color-border) 
+            box-shadow: black 2px 2px 0px
+            font-weight: bold
+            padding: $spacing-1
+            transform: rotate(-1deg)
+            width: 100%
+        &-summary
+            background-color: $color-background
+            border: $header-border-bottom-width solid var(--color-border)
+            box-shadow: black 2px 2px 0px
+            margin-bottom: var(--block-space-y)
+            margin-left: var(--grid-gutter)
+            padding-top: 0
+            padding-bottom: 0
+            position: relative
+            transform: rotate(-1deg)
+            width: calc(var(--grid-width) - var(--grid-gutter) - var(--grid-gutter))
+            z-index: 2
+            @include in-page-with-sidebar
+                margin-left: columns(5)
+                width: columns(8)
+                .block-content
+                    padding-left: var(--grid-gutter)
+        &-siblings-navigation
+            padding-bottom: $spacing-3
+            padding-top: $spacing-3
+            .siblings-navigation 
+                border: none
+                ul 
+                    padding-top: 0
+                    span 
+                        text-transform: uppercase
+                    .previous, .next
+                        border: none
 header#document-header 
-    border-bottom: $header-border-bottom-width solid var(--color-border)
+    border: $header-border-bottom-width solid var(--color-border)
+    box-shadow: black 2px 2px 0px
+    margin-left: var(--grid-gutter)
+    width: calc(var(--grid-width) - var(--grid-gutter) - var(--grid-gutter))
 
 .menu
     .nav-level-1
@@ -18,18 +63,133 @@ header#document-header
         > li 
             > a
                 text-transform: uppercase
+.lead 
+    text-transform: uppercase
 
-.block
-    @include in-page-without-sidebar    
-        margin-bottom: 0
-        margin-top: 0
-        &:not(:first-child)
-            border-top: $header-border-bottom-width solid var(--color-border)
 
 footer#document-footer
+    align-items: flex-start
     border-top: $header-border-bottom-width solid var(--color-border)
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    .container
+        display: block
+        margin-left: 0
+        margin-right: 0
+        padding-top: 0
+        width: fit-content
+        + .container
+            padding-top: 0
+    @include media-breakpoint-down(desktop)
+        .container + .container
+            margin-top: 0
 
-.event-sidebar
-    .event-infos
-        > *:not(.event-date)
+body.page-exposants
+    .block
+        &-summary
+            margin-bottom: 0
+        &-organizations
+            padding-bottom: 0
+            &--grid
+                .grid
+                    border-top: $header-border-bottom-width solid $color-border
+                    grid-gap: 0
+                    @include media-breakpoint-down(xl) 
+                        grid-gap: 0 !important
+                    article
+                        border-bottom: $header-border-bottom-width solid $color-border
+                        border-left: $header-border-bottom-width solid $color-border
+                        border-right: $header-border-bottom-width solid $color-border
+                        @include media-breakpoint-up(xl) 
+                            &:not(:nth-child(6n+1))
+                                border-left: none
+                            &:nth-child(6n):nth-last-child(-n+7) ~ article
+                                border-bottom: none
+                        @include media-breakpoint-down(xl) 
+                            @include media-breakpoint-up(desktop) 
+                                &:not(:nth-child(4n+1))
+                                    border-left: none
+                                &:nth-child(4n):nth-last-child(-n+5) ~ article
+                                    border-bottom: none
+                        @include media-breakpoint-down(desktop)
+                            @include media-breakpoint-up(md)
+                                &:not(:nth-child(3n+1))
+                                    border-left: none
+                                &:nth-child(3n):nth-last-child(-n+4) ~ article
+                                    border-bottom: none
+                        @include media-breakpoint-down(md)
+                            &:not(:nth-child(2n+1))
+                                border-left: none
+                            &:nth-child(2n):nth-last-child(-n+3) ~ article
+                                border-bottom: none
+                        .organization-title 
+                            a 
+                                background: $color-background
+                                border: $header-border-bottom-width solid $color-border
+                                margin-left: 5px
+                                margin-right: 5px
+                                margin-top: -50%
+                                text-align: center
+                                &:hover
+                                    &::after
+                                        background-color: #feed01
+                                        mix-blend-mode: overlay
+                                        transition: 0.5s
+                        .media
+                            aspect-ratio: 1
+                            height: 100%
+                            margin-bottom: 0
+                            padding: 0
+
+.events__page:not(.full-width)
+    .document-content
+        min-height: initial
+    .event-sidebar
+        .event-infos
+            @include media-breakpoint-up(desktop)
+                background-color: $color-background
+                border: $header-border-bottom-width solid $color-border
+                box-shadow: #000 2px 2px 0px
+                height: fit-content
+                padding: $spacing-3
+                transform: rotate(-1deg)
+            > *:not(.event-date)
+                display: none
+            > *
+                text-transform: uppercase
+
+.page__home
+    .hero
+        background: transparent
+        height: 100vh
+        overflow: hidden
+        position: relative
+        &--image-portrait, &--image-square
+            .content 
+                figure
+                    height: 100%
+                    left: 0
+                    position: absolute
+                    top: 0
+                    width: 100%
+                    z-index: -1
+        .hero-text
             display: none
+
+    .block-organizations--map
+        padding: 0
+        .container
+            padding: 0
+    .block-organizations--grid
+        .organizations
+            align-items: center
+            display: flex
+            justify-content: space-evenly
+            .organization-title
+                display: none
+            .media
+                padding: 0
+                picture
+                    max-height: 200px
+                    width: 100px
