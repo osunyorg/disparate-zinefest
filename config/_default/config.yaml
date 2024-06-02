@@ -7,12 +7,12 @@ params:
     active: false  
   logo:
     # Handle logo in darkmode with this configuration
-    header:
-      default: "/assets/images/logo.png"
-      darkmode: "/assets/images/logo-white.png"
-    footer:
-      default: "/assets/images/star.png"
-      darkmode: "/assets/images/star.png"
+    header: "/assets/images/logo.png"
+      # default: "/assets/images/logo.png"
+      # darkmode: "/assets/images/logo-white.png"
+    footer: "/assets/images/star.png"
+      # default: "/assets/images/star.png"
+      # darkmode: "/assets/images/star.png"
   breadcrumb:
     position: none #  hero-start |  hero-end | after-hero | none
   summary:

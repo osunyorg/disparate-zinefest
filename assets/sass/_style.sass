@@ -1,18 +1,23 @@
 .hero
     border-bottom: $header-border-bottom-width solid var(--color-border)
+    margin-left: auto
+    margin-right: auto
+    max-width: var(--grid-width)
+
     .content
         figure 
             figcaption
                 .credit-content
                     font-size: pxToRem(12)
+
+body::after
+    mix-blend-mode: screen
 .document-content
     .block
         margin-bottom: 0
         margin-top: 0
         padding-bottom: var(--block-space-y)
         padding-top: var(--block-space-y)
-        &:not(:first-child)
-            border-top: $header-border-bottom-width solid var(--color-border)
         h2.block-title 
             background-color: var(--color-background-alt)
             border: $header-border-bottom-width solid var(--color-border) 
@@ -22,37 +27,36 @@
             transform: rotate(-1deg)
             width: 100%
         &-summary
-            background-color: var(--color-background-alt)
-            border: $header-border-bottom-width solid var(--color-border)
-            box-shadow: var(--color-selection-background) 2px 2px 0px
-            margin-bottom: var(--block-space-y)
-            margin-left: var(--grid-gutter)
-            padding-top: 0
-            padding-bottom: 0
-            position: relative
-            transform: rotate(-1deg)
-            width: calc(var(--grid-width) - var(--grid-gutter) - var(--grid-gutter))
-            z-index: 2
-            @include in-page-with-sidebar
-                margin-left: columns(5)
-                width: columns(8)
-                .block-content
-                    padding-left: var(--grid-gutter)
+            .container
+                background-color: var(--color-background-alt)
+                border: $header-border-bottom-width solid var(--color-border)
+                box-shadow: var(--color-selection-background) 2px 2px 0px
+                transform: rotate(-1deg)
+                width: calc(var(--grid-width) - var(--grid-gutter) - var(--grid-gutter))
+                @include in-page-with-sidebar
+                    margin-left: columns(5)
+                    width: columns(8)
+                    .block-content
+                        padding-left: var(--grid-gutter)
         &-siblings-navigation
             padding-bottom: $spacing-3
             padding-top: $spacing-3
             .siblings-navigation 
-                border: none
+                border-width: 2px
                 ul 
-                    padding-top: 0
+                    a:hover
+                        transition: 0.1s
                     span 
                         text-transform: uppercase
                     .previous, .next
-                        border: none
+                        border-width: 2px
 header#document-header 
     border: $header-border-bottom-width solid var(--color-border)
     box-shadow: var(--color-selection-background) 2px 2px 0px
-    margin-left: var(--grid-gutter)
+    // margin-left: var(--grid-gutter)
+    margin-left: auto
+    margin-right: auto
+    right: 0
     width: calc(var(--grid-width) - var(--grid-gutter) - var(--grid-gutter))
 
 .menu
@@ -87,8 +91,6 @@ footer#document-footer
 
 body.page-exposants
     .block
-        &-summary
-            margin-bottom: 0
         &-organizations
             padding-bottom: 0
             &--grid
@@ -98,6 +100,11 @@ body.page-exposants
                     @include media-breakpoint-down(xl) 
                         grid-gap: 0 !important
                     article
+                        &:hover
+                            // transform: rotate(-1deg) scale(1.1)
+                            // // box-shadow: 0px 0px 1px 1px black
+                            // transition: 0.3s 
+                            // z-index: 90
                         border-bottom: $header-border-bottom-width solid var(--color-border)
                         border-left: $header-border-bottom-width solid var(--color-border)
                         border-right: $header-border-bottom-width solid var(--color-border)
@@ -162,7 +169,10 @@ body.page-exposants
 .page__home
     .hero
         background: transparent
-        min-height: 100vh
+        border: $header-border-bottom-width solid var(--color-border)
+        height: 100vh
+        @include media-breakpoint-down(sm)
+            max-height: 700px
         overflow: hidden
         position: relative
         &--image-portrait, &--image-square, &--image-landscape
@@ -191,6 +201,7 @@ body.page-exposants
             transform: rotate(-1deg)         
 
     .block-organizations--map
+        border: $header-border-bottom-width solid var(--color-border)
         padding: 0
         max-width: 100%
         overflow: hidden
