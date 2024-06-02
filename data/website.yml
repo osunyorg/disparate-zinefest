@@ -6,5 +6,9 @@ default:
   shared_image:
     id: 4af6cacd-3cd1-4db9-a055-de07db6b60db
 social:
+  email: >-
+    disparate.asso@gmail.com
   instagram: >-
     https://www.instagram.com/disparate_librairie/
+  facebook: >-
+    https://www.facebook.com/association.disparate
