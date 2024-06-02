@@ -162,23 +162,38 @@ body.page-exposants
 .page__home
     .hero
         background: transparent
-        height: 100vh
+        min-height: 100vh
         overflow: hidden
         position: relative
-        &--image-portrait, &--image-square
+        &--image-portrait, &--image-square, &--image-landscape
             .content 
                 figure
-                    height: 100%
+                    bottom: 0
                     left: 0
                     position: absolute
+                    right: 0
                     top: 0
-                    width: 100%
                     z-index: -1
+                    @include media-breakpoint-up(desktop)
+                        width: 100%
+                    picture
+                        height: 100%
+                        img
+                            width: 100% 
+                            object-fit: cover
+                            height: 100%
+
         .hero-text
-            display: none
+            padding: $spacing-3
+            background-color: $color-background
+            border: $header-border-bottom-width solid var(--color-border)
+            box-shadow: black 2px 2px 0px   
+            transform: rotate(-1deg)         
 
     .block-organizations--map
         padding: 0
+        max-width: 100%
+        overflow: hidden
         .container
             padding: 0
     .block-organizations--grid
@@ -186,6 +201,7 @@ body.page-exposants
             align-items: center
             display: flex
             justify-content: space-evenly
+            flex-wrap: wrap
             .organization-title
                 display: none
             .media
