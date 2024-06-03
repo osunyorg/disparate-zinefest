@@ -207,12 +207,20 @@ body.page-exposants
         overflow: hidden
         .container
             padding: 0
+            .map
+                .leaflet-marker-pane img.leaflet-marker-icon
+                    filter: drop-shadow(-2px 0px 1px #000005)
+                    height: 50px !important
+                    margin-top: -50px !important
+                    width: auto !important
+                    position: absolute
+                    z-index: 402
     .block-organizations--grid
         .organizations
             align-items: center
             display: flex
-            justify-content: space-evenly
             flex-wrap: wrap
+            justify-content: space-evenly
             .organization-title
                 display: none
             .media

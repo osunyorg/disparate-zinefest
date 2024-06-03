@@ -27,7 +27,8 @@ params:
       truncate_description: 200 # Set to 0 to disable truncate
       layout: grid # grid | list
   organizations:
-    map_marker_icon: '/assets/images/map-marker.svg'
+    dark_logo_background: false
+    map_marker_icon: '/assets/images/markerdealer.png'
   image_sizes:
     design_system:
       lightbox:
