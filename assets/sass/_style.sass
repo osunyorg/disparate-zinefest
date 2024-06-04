@@ -46,16 +46,13 @@ body::after
             width: 100%
         &-summary
             .container
-                background-color: var(--color-background-alt)
-                border: $header-border-bottom-width solid var(--color-border)
-                box-shadow: var(--color-selection-background) 2px 2px 0px
-                transform: rotate(-1deg)
-                width: calc(var(--grid-width) - var(--grid-gutter) - var(--grid-gutter))
-                @include in-page-with-sidebar
-                    margin-left: columns(5)
-                    width: columns(8)
-                    .block-content
-                        padding-left: var(--grid-gutter)
+                .lead
+                    background-color: var(--color-background-alt)
+                    border: $header-border-bottom-width solid var(--color-border)
+                    box-shadow: var(--color-selection-background) 2px 2px 0px
+                    transform: rotate(-1deg)
+                    padding-right: var(--grid-gutter)
+                    padding-left: var(--grid-gutter)
         &-siblings-navigation
             padding-bottom: $spacing-3
             padding-top: $spacing-3
