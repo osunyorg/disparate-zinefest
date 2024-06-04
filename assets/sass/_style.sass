@@ -113,7 +113,6 @@ body.page-exposants
                     @include media-breakpoint-down(xl) 
                         grid-gap: 0 !important
                     article
-
                         border-bottom: $header-border-bottom-width solid var(--color-border)
                         border-left: $header-border-bottom-width solid var(--color-border)
                         border-right: $header-border-bottom-width solid var(--color-border)
@@ -140,6 +139,7 @@ body.page-exposants
                             &:nth-child(2n):nth-last-child(-n+3) ~ article
                                 border-bottom: none
                         .organization-title 
+                            z-index: 3
                             a 
                                 background-color: var(--color-background-alt)
                                 border: $header-border-bottom-width solid var(--color-border)
@@ -147,16 +147,24 @@ body.page-exposants
                                 margin-right: 5px
                                 margin-top: -50%
                                 text-align: center
-                                &:hover
-                                    &::after
-                                        background-color: #feed01
-                                        mix-blend-mode: overlay
-                                        transition: 0.5s
+                        &:hover
+                            .media
+                                &::after
+                                    background-color: #feed01
+                                    mix-blend-mode: overlay
+                                    transition: 0.5s
                         .media
                             aspect-ratio: 1
                             height: 100%
                             margin-bottom: 0
                             padding: 0
+                            position: relative
+                            &::after
+                                content: ""
+                                height: 100%
+                                position: absolute
+                                top: 0
+                                width: 100%
 
 .events__page:not(.full-width)
     .document-content
