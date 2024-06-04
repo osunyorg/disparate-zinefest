@@ -9,7 +9,25 @@
             figcaption
                 .credit-content
                     font-size: pxToRem(12)
-
+                    
+.pages__section, .events__section
+    .hero 
+        .content 
+            align-items: center
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            .hero-text
+                width: columns(6)
+            figure 
+                display: flex
+                justify-content: flex-end
+                margin-left: 0
+                margin-right: 0
+                width: columns(3)
+                img
+                    max-height: 100px
+                    width: auto
 body::after
     mix-blend-mode: screen
 .document-content
@@ -189,7 +207,7 @@ body.page-exposants
                     picture
                         height: 100%
                         img
-                            width: 100% 
+                            width: auto
                             object-fit: cover
                             height: 100%
 

@@ -33,4 +33,10 @@ params:
     design_system:
       lightbox:
         disabled: true
+    sections:
+      home:
+        hero:
+          mobile:   800
+          tablet:   800
+          desktop:  750
         
