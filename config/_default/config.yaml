@@ -10,7 +10,7 @@ params:
     header: "/assets/images/logo.png"
       # default: "/assets/images/logo.png"
       # darkmode: "/assets/images/logo-white.png"
-    footer: "/assets/images/star.png"
+    footer: "/assets/images/dealer-vecto-color.png"
       # default: "/assets/images/star.png"
       # darkmode: "/assets/images/star.png"
   breadcrumb:

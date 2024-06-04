@@ -87,22 +87,20 @@ header#document-header
 
 
 footer#document-footer
-    align-items: flex-start
+    align-items: flex-end
     border-top: $header-border-bottom-width solid var(--color-border)
     display: flex
     flex-wrap: wrap
     justify-content: space-between
     .container
         display: block
-        margin-left: 0
-        margin-right: 0
-        padding-top: 0
+        padding: 0
         width: fit-content
-        + .container
-            padding-top: 0
-    @include media-breakpoint-down(desktop)
-        .container + .container
-            margin-top: 0
+
+    .footer-social 
+        .nav-social 
+            + .site-links
+                margin-top: 0
 
 body.page-exposants
     .block
@@ -115,11 +113,7 @@ body.page-exposants
                     @include media-breakpoint-down(xl) 
                         grid-gap: 0 !important
                     article
-                        &:hover
-                            // transform: rotate(-1deg) scale(1.1)
-                            // // box-shadow: 0px 0px 1px 1px black
-                            // transition: 0.3s 
-                            // z-index: 90
+
                         border-bottom: $header-border-bottom-width solid var(--color-border)
                         border-left: $header-border-bottom-width solid var(--color-border)
                         border-right: $header-border-bottom-width solid var(--color-border)
