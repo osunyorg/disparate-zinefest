@@ -17,8 +17,8 @@ fr:
   permalinks:
     events: /evenements/:year-:month-:day-:slug/
     events_categories: /evenements/:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/:slug/
+    organizations: /invites-et-partenaires/:slug/
+    organizations_categories: /invites-et-partenaires/:slug/
   taxonomies:
     administrator: administrators
     author: authors
