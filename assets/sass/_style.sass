@@ -2,7 +2,6 @@
     border-bottom: $header-border-bottom-width solid var(--color-border)
     margin-left: auto
     margin-right: auto
-    // max-width: var(--grid-width)
 
     .content
         figure 
@@ -30,6 +29,7 @@
                     width: auto
 body::after
     mix-blend-mode: screen
+
 .document-content
     .block
         margin-bottom: 0
@@ -83,7 +83,6 @@ header#document-header
 .lead 
     text-transform: uppercase
 
-
 footer#document-footer
     align-items: flex-start
     border-top: $header-border-bottom-width solid var(--color-border)
@@ -123,6 +122,7 @@ body.page-exposants
                     @include media-breakpoint-down(xl) 
                         grid-gap: 0 !important
                     article
+                        aspect-ratio: 1
                         border-bottom: $header-border-bottom-width solid var(--color-border)
                         border-left: $header-border-bottom-width solid var(--color-border)
                         border-right: $header-border-bottom-width solid var(--color-border)
@@ -149,14 +149,15 @@ body.page-exposants
                             &:nth-child(2n):nth-last-child(-n+3) ~ article
                                 border-bottom: none
                         .organization-title 
-                            z-index: 3
+                            align-items: center
+                            display: flex
+                            height: 100%
                             a 
                                 background-color: var(--color-background-alt)
                                 border: $header-border-bottom-width solid var(--color-border)
-                                margin-left: 5px
-                                margin-right: 5px
-                                margin-top: -50%
+                                margin: 0 auto
                                 text-align: center
+                                width: 90%
                         &:hover
                             .media
                                 &::after
@@ -164,11 +165,16 @@ body.page-exposants
                                     mix-blend-mode: overlay
                                     transition: 0.5s
                         .media
-                            aspect-ratio: 1
-                            height: 100%
-                            margin-bottom: 0
+                            bottom: 0
+                            left: 0
+                            margin: 0
                             padding: 0
-                            position: relative
+                            position: absolute
+                            right: 0
+                            top: 0
+                            z-index: -1
+                            picture
+                                height: 100%
                             &::after
                                 content: ""
                                 height: 100%
