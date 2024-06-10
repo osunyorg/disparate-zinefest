@@ -188,8 +188,10 @@ body.page-exposants
                 height: fit-content
                 padding: $spacing-3
                 transform: rotate(-1deg)
-            > *:not(.event-date)
-                display: none
+            > li 
+                + li 
+                    + li
+                        display: none
             > *
                 text-transform: uppercase
 .events__section, .page__home
