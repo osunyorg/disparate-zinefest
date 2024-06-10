@@ -37,7 +37,7 @@ params:
       home:
         hero:
           mobile:   800
-          tablet:   800
+          tablet:   2000
           desktop:  2000
       pages:
         hero:

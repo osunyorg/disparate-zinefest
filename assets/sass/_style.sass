@@ -2,7 +2,7 @@
     border-bottom: $header-border-bottom-width solid var(--color-border)
     margin-left: auto
     margin-right: auto
-    max-width: var(--grid-width)
+    // max-width: var(--grid-width)
 
     .content
         figure 
@@ -223,7 +223,6 @@ body.page-exposants
                             min-height: 100%
                             object-fit: cover
                             object-position: center
-                            width: auto
 
         .hero-text
             padding: $spacing-3
@@ -235,13 +234,13 @@ body.page-exposants
                 margin-top: 25vh
 
     .block-organizations--map
-        border: $header-border-bottom-width solid var(--color-border)
         padding: 0
         max-width: 100%
         overflow: hidden
         .container
             padding: 0
             .map
+                border: $header-border-bottom-width solid var(--color-border)
                 .leaflet-marker-pane img.leaflet-marker-icon
                     filter: drop-shadow(-2px 0px 1px #000005)
                     height: 50px !important
