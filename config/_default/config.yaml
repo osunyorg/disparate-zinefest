@@ -38,5 +38,27 @@ params:
         hero:
           mobile:   800
           tablet:   800
-          desktop:  750
-        
+          desktop:  2000
+      pages:
+        hero:
+          mobile:   100
+          tablet:   100
+          desktop:  100
+      events:
+        hero:
+          mobile:   100
+          tablet:   100
+          desktop:  100
+        hero_single:
+          mobile:   700
+          tablet:   940
+          desktop:  500
+        item:
+          mobile:   700
+          tablet:   450
+          desktop:  500
+    blocks:
+      organizations:
+        mobile:   300
+        tablet:   300
+        desktop:  300

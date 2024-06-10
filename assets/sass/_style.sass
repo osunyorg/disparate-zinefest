@@ -51,8 +51,7 @@ body::after
                     border: $header-border-bottom-width solid var(--color-border)
                     box-shadow: var(--color-selection-background) 2px 2px 0px
                     transform: rotate(-1deg)
-                    padding-right: var(--grid-gutter)
-                    padding-left: var(--grid-gutter)
+                    padding: $spacing-2 var(--grid-gutter)
         &-siblings-navigation
             padding-bottom: $spacing-3
             padding-top: $spacing-3
@@ -68,7 +67,6 @@ body::after
 header#document-header 
     border: $header-border-bottom-width solid var(--color-border)
     box-shadow: var(--color-selection-background) 2px 2px 0px
-    // margin-left: var(--grid-gutter)
     margin-left: auto
     margin-right: auto
     right: 0
@@ -87,7 +85,7 @@ header#document-header
 
 
 footer#document-footer
-    align-items: flex-end
+    align-items: flex-start
     border-top: $header-border-bottom-width solid var(--color-border)
     display: flex
     flex-wrap: wrap
@@ -96,10 +94,22 @@ footer#document-footer
         display: block
         padding: 0
         width: fit-content
-
+        margin-top: $spacing-4
+        + .container
+            padding-top: 0
+            margin-top: 0
     .footer-social 
         .nav-social 
             + .site-links
+                li
+                    margin-top: 0
+    .footer-legals
+        margin-top: $spacing-3
+        .footer-credit
+            margin-top: 0
+    @include media-breakpoint-down(desktop)
+        .container 
+            + .container
                 margin-top: 0
 
 body.page-exposants
