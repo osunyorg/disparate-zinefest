@@ -7,13 +7,25 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      email: >-
-        disparate.asso@gmail.com
-      instagram: >-
-        https://www.instagram.com/disparate_librairie/
-      facebook: >-
-        https://www.facebook.com/association.disparate
+    contact_details:
+      emails:
+        email:
+          label: >-
+            disparate.asso@gmail.com
+          value: >-
+            mailto:disparate.asso@gmail.com
+      social_networks:
+        facebook:
+          label: >-
+            association.disparate
+          value: >-
+            https://www.facebook.com/association.disparate
+        instagram:
+          label: >-
+            disparate_librairie
+          value: >-
+            https://instagram.com/disparate_librairie
+
   permalinks:
     events: /evenements/:year-:month-:day-:slug/
     events_categories: /evenements/:slug/
