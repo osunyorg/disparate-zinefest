@@ -5,15 +5,18 @@ items:
   target: "/invites/"
   kind: page
   children: []
+  path: "/pages/invites"
   file: content/fr/pages/invites/_index.html
 - title: Programme
   target: "/programme/"
   kind: page
   children: []
+  path: "/pages/programme"
   file: content/fr/pages/programme/_index.html
 - title: Évènements
   target: "/evenements/"
   kind: page
   children: []
+  path: "/events"
   file: content/fr/events/_index.html
 
