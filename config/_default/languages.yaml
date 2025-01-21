@@ -29,6 +29,7 @@ fr:
   permalinks:
     events: /evenements/:year-:month-:day-:slug/
     events_categories: /evenements/:slug/
+    pages_categories: /:slug/
     organizations: /invites-et-partenaires/:slug/
     organizations_categories: /invites-et-partenaires/categories/:slug/
   taxonomies:
@@ -38,6 +39,7 @@ fr:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
