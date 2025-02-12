@@ -2,6 +2,11 @@
 
 baseURL: https://www.zinefest.fr
 
+## OSUNY
+osuny:
+  website:
+    id: f36c7eb1-e267-4e96-84b5-bc0a2ef20fad
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
