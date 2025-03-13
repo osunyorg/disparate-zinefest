@@ -6,6 +6,7 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  buildFuture: true
   params:
     contact_details:
       emails:
@@ -27,7 +28,8 @@ fr:
             https://instagram.com/disparate_librairie
 
   permalinks:
-    events: /evenements/:year-:month-:day-:slug/
+    events: /evenements/:year/:slug/
+    exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /evenements/:slug/
     pages_categories: /:slug/
     organizations: /invites-et-partenaires/:slug/
