@@ -1,10 +1,8 @@
 theme: osuny
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
+_merge: deep
 params:
   search:
-    active: false  
+    active: false
   logo:
     # Handle logo in darkmode with this configuration
     header: "/assets/images/logo.png"
