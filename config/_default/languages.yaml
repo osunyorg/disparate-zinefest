@@ -27,13 +27,6 @@ fr:
           value: >-
             https://instagram.com/disparate_librairie
 
-  permalinks:
-    events: /evenements/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /evenements/:slug/
-    pages_categories: /:slug/
-    organizations: /invites-et-partenaires/:slug/
-    organizations_categories: /invites-et-partenaires/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
