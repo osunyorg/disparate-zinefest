@@ -5,7 +5,7 @@ params:
     active: false
   logo:
     # Handle logo in darkmode with this configuration
-    header: "/assets/images/logo.png"
+    header: "/assets/images/zinefest-12.png"
       # default: "/assets/images/logo.png"
       # darkmode: "/assets/images/logo-white.png"
     footer: "/assets/images/dealer-vecto-color.png"
