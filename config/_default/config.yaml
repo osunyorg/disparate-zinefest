@@ -15,6 +15,9 @@ params:
     position: none #  hero-start |  hero-end | after-hero | none
   summary:
     position: content # hero | content
+  home:
+    head:
+      title: site
   events:
     default_image: true
     date_format: ":date_long"
