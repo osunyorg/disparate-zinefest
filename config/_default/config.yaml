@@ -30,10 +30,11 @@ params:
   organizations:
     dark_logo_background: false
     map_marker_icon: '/assets/images/markerdealer.png'
+
+  components:
+    lightbox:
+      disabled: true
   image_sizes:
-    design_system:
-      lightbox:
-        disabled: true
     sections:
       home:
         hero:
@@ -58,8 +59,9 @@ params:
           mobile:   700
           tablet:   450
           desktop:  500
-    blocks:
       organizations:
-        mobile:   300
-        tablet:   300
-        desktop:  300
+        layouts:
+          grid:
+            mobile:   300
+            tablet:   300
+            desktop:  300
