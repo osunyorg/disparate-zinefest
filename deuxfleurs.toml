@@ -15,290 +15,290 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/agenda/archives/"
+from = "/agenda/archives/index.html"
 to = "/evenements/archives/"
 
 [[redirects]]
-from = "/exposantes/"
+from = "/exposantes/index.html"
 to = "/invites/"
 
 [[redirects]]
-from = "/invites-et-partenaires/les-lilas-boris-dugland-detraz/"
+from = "/invites-et-partenaires/les-lilas-boris-dugland-detraz/index.html"
 to = "/invites-et-partenaires/les-lilas-boris-detraz/"
 
 [[redirects]]
-from = "/organisations/fripouilles/"
+from = "/organisations/fripouilles/index.html"
 to = "/invites-et-partenaires/fripouilles/"
 
 [[redirects]]
-from = "/2024/08/"
+from = "/2024/08/index.html"
 to = "/evenements/2024/08/"
 
 [[redirects]]
-from = "/organisations/partenaire/"
+from = "/organisations/partenaire/index.html"
 to = "/invites-et-partenaires/categories/partenaire/"
 
 [[redirects]]
-from = "/categories/exposant-e/"
+from = "/categories/exposant-e/index.html"
 to = "/invites-et-partenaires/categories/exposant-e/"
 
 [[redirects]]
-from = "/archives-expositions/"
+from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
-from = "/organisations/arthur-plateau-chats-noirs/"
+from = "/organisations/arthur-plateau-chats-noirs/index.html"
 to = "/invites-et-partenaires/arthur-plateau/"
 
 [[redirects]]
-from = "/evenements/2024-07-03-test/"
+from = "/evenements/2024-07-03-test/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
-from = "/evenements/2024-07-05-lancement-et-exposition-musique-du-diable-iii/"
+from = "/evenements/2024-07-05-lancement-et-exposition-musique-du-diable-iii/index.html"
 to = "/evenements/2024/lancement-et-exposition-musique-du-diable-iii/"
 
 [[redirects]]
-from = "/n-a-qu-1-oeil/"
+from = "/n-a-qu-1-oeil/index.html"
 to = "/invites-et-partenaires/n-a-qu-1-oeil/"
 
 [[redirects]]
-from = "/organisations/chasse-goupille/"
+from = "/organisations/chasse-goupille/index.html"
 to = "/invites-et-partenaires/chasse-goupille/"
 
 [[redirects]]
-from = "/organisations/grante-egle/"
+from = "/organisations/grante-egle/index.html"
 to = "/invites-et-partenaires/grante-egle/"
 
 [[redirects]]
-from = "/organisations/ville-de-bordeaux/"
+from = "/organisations/ville-de-bordeaux/index.html"
 to = "/invites-et-partenaires/ville-de-bordeaux/"
 
 [[redirects]]
-from = "/organisations/gazzeta-ultra/"
+from = "/organisations/gazzeta-ultra/index.html"
 to = "/invites-et-partenaires/gazzeta-ultra/"
 
 [[redirects]]
-from = "/organisations/collectif-sapin/"
+from = "/organisations/collectif-sapin/index.html"
 to = "/invites-et-partenaires/collectif-sapin/"
 
 [[redirects]]
-from = "/organisations/editions-adverse/"
+from = "/organisations/editions-adverse/index.html"
 to = "/invites-et-partenaires/editions-adverse/"
 
 [[redirects]]
-from = "/organisations/drac-nouvelle-aquitaine/"
+from = "/organisations/drac-nouvelle-aquitaine/index.html"
 to = "/invites-et-partenaires/drac-nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/2024/salon-de-micro-editions-fanzines-et-multiples/"
+from = "/2024/salon-de-micro-editions-fanzines-et-multiples/index.html"
 to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples/"
 
 [[redirects]]
-from = "/2024/12/"
+from = "/2024/12/index.html"
 to = "/evenements/2024/12/"
 
 [[redirects]]
-from = "/evenements/2024-07-06-salon-de-micro-editions-fanzines-et-multiples/"
+from = "/evenements/2024-07-06-salon-de-micro-editions-fanzines-et-multiples/index.html"
 to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples/"
 
 [[redirects]]
-from = "/2024/soiree-concerts/"
+from = "/2024/soiree-concerts/index.html"
 to = "/evenements/2024/soiree-concerts/"
 
 [[redirects]]
-from = "/2024/lancement-et-exposition-musique-du-diable-iii/"
+from = "/2024/lancement-et-exposition-musique-du-diable-iii/index.html"
 to = "/evenements/2024/lancement-et-exposition-musique-du-diable-iii/"
 
 [[redirects]]
-from = "/organisations/disparate/"
+from = "/organisations/disparate/index.html"
 to = "/invites-et-partenaires/disparate/"
 
 [[redirects]]
-from = "/drac-nouvelle-aquitaine/"
+from = "/drac-nouvelle-aquitaine/index.html"
 to = "/invites-et-partenaires/drac-nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/evenements/2024-07-03-vernissage-de-lexposition-rondo-de-palefroi/"
+from = "/evenements/2024-07-03-vernissage-de-lexposition-rondo-de-palefroi/index.html"
 to = "/evenements/2024/vernissage-de-lexposition-rondo-de-palefroi/"
 
 [[redirects]]
-from = "/2024/01/"
+from = "/2024/01/index.html"
 to = "/evenements/2024/01/"
 
 [[redirects]]
-from = "/evenements/2024-06-29-atelier-fanzine-collectif/"
+from = "/evenements/2024-06-29-atelier-fanzine-collectif/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
-from = "/2024/02/"
+from = "/2024/02/index.html"
 to = "/evenements/2024/02/"
 
 [[redirects]]
-from = "/2024/ateliers-de-pratique-artistique/"
+from = "/2024/ateliers-de-pratique-artistique/index.html"
 to = "/evenements/2024/ateliers-de-pratique-artistique/"
 
 [[redirects]]
-from = "/organisations/aux-enfants-du-talus/"
+from = "/organisations/aux-enfants-du-talus/index.html"
 to = "/invites-et-partenaires/aux-enfants-du-talus/"
 
 [[redirects]]
-from = "/la-halle-des-douves/"
+from = "/la-halle-des-douves/index.html"
 to = "/invites-et-partenaires/la-halle-des-douves/"
 
 [[redirects]]
-from = "/organisations/adele-frost/"
+from = "/organisations/adele-frost/index.html"
 to = "/invites-et-partenaires/adele-frost/"
 
 [[redirects]]
-from = "/2024/05/"
+from = "/2024/05/index.html"
 to = "/evenements/2024/05/"
 
 [[redirects]]
-from = "/evenements/2024-07-04-ateliers-de-pratique-artistique/"
+from = "/evenements/2024-07-04-ateliers-de-pratique-artistique/index.html"
 to = "/evenements/2024/ateliers-de-pratique-artistique/"
 
 [[redirects]]
-from = "/organisations/palefroi/"
+from = "/organisations/palefroi/index.html"
 to = "/invites-et-partenaires/palefroi/"
 
 [[redirects]]
-from = "/organisations/free-hands-fanzine/"
+from = "/organisations/free-hands-fanzine/index.html"
 to = "/invites-et-partenaires/cellophane-micro-edition-free-hands-fanzine/"
 
 [[redirects]]
-from = "/categories/partenaire/"
+from = "/categories/partenaire/index.html"
 to = "/invites-et-partenaires/categories/partenaire/"
 
 [[redirects]]
-from = "/2024/09/"
+from = "/2024/09/index.html"
 to = "/evenements/2024/09/"
 
 [[redirects]]
-from = "/invites-et-partenaires/exposant-e/"
+from = "/invites-et-partenaires/exposant-e/index.html"
 to = "/invites-et-partenaires/categories/exposant-e/"
 
 [[redirects]]
-from = "/2024/vernissage-de-lexposition-rondo-de-palefroi/"
+from = "/2024/vernissage-de-lexposition-rondo-de-palefroi/index.html"
 to = "/evenements/2024/vernissage-de-lexposition-rondo-de-palefroi/"
 
 [[redirects]]
-from = "/la-fabrique-pola/"
+from = "/la-fabrique-pola/index.html"
 to = "/invites-et-partenaires/la-fabrique-pola/"
 
 [[redirects]]
-from = "/evenements/2024-07-05-test/"
+from = "/evenements/2024-07-05-test/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
-from = "/organisations/editions-microgram/"
+from = "/organisations/editions-microgram/index.html"
 to = "/invites-et-partenaires/editions-microgram/"
 
 [[redirects]]
-from = "/agenda/"
+from = "/agenda/index.html"
 to = "/evenements/"
 
 [[redirects]]
-from = "/invites-et-partenaires/linsoleuse/"
+from = "/invites-et-partenaires/linsoleuse/index.html"
 to = "/invites-et-partenaires/l-insoleuse/"
 
 [[redirects]]
-from = "/2024/03/"
+from = "/2024/03/index.html"
 to = "/evenements/2024/03/"
 
 [[redirects]]
-from = "/organisations/chloe-cavalier/"
+from = "/organisations/chloe-cavalier/index.html"
 to = "/invites-et-partenaires/chloe-cavalier/"
 
 [[redirects]]
-from = "/organisations/du-noir-sous-les-ongles/"
+from = "/organisations/du-noir-sous-les-ongles/index.html"
 to = "/invites-et-partenaires/du-noir-sous-les-ongles/"
 
 [[redirects]]
-from = "/invites-et-partenaires/partenaire/"
+from = "/invites-et-partenaires/partenaire/index.html"
 to = "/invites-et-partenaires/categories/partenaire/"
 
 [[redirects]]
-from = "/evenements/2024-07-06-street-party/"
+from = "/evenements/2024-07-06-street-party/index.html"
 to = "/evenements/2024/street-party/"
 
 [[redirects]]
-from = "/organisations/exposant-e/"
+from = "/organisations/exposant-e/index.html"
 to = "/invites-et-partenaires/categories/exposant-e/"
 
 [[redirects]]
-from = "/organisations/adelepetitfeu/"
+from = "/organisations/adelepetitfeu/index.html"
 to = "/invites-et-partenaires/adelepetitfeu/"
 
 [[redirects]]
-from = "/2024/10/"
+from = "/2024/10/index.html"
 to = "/evenements/2024/10/"
 
 [[redirects]]
-from = "/2024/04/"
+from = "/2024/04/index.html"
 to = "/evenements/2024/04/"
 
 [[redirects]]
-from = "/2024/11/"
+from = "/2024/11/index.html"
 to = "/evenements/2024/11/"
 
 [[redirects]]
-from = "/2024/06/"
+from = "/2024/06/index.html"
 to = "/evenements/2024/06/"
 
 [[redirects]]
-from = "/2024/street-party/"
+from = "/2024/street-party/index.html"
 to = "/evenements/2024/street-party/"
 
 [[redirects]]
-from = "/2024/"
+from = "/2024/index.html"
 to = "/evenements/2024/"
 
 [[redirects]]
-from = "/organisations/la-fabrique-pola/"
+from = "/organisations/la-fabrique-pola/index.html"
 to = "/invites-et-partenaires/la-fabrique-pola/"
 
 [[redirects]]
-from = "/evenements/2024-07-04-soiree-concerts/"
+from = "/evenements/2024-07-04-soiree-concerts/index.html"
 to = "/evenements/2024/soiree-concerts/"
 
 [[redirects]]
-from = "/organisations/"
+from = "/organisations/index.html"
 to = "/invites-et-partenaires/"
 
 [[redirects]]
-from = "/2024/atelier-fanzine-collectif/"
+from = "/2024/atelier-fanzine-collectif/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
-from = "/invites-et-partenaires/arthur-plateau-chats-noirs/"
+from = "/invites-et-partenaires/arthur-plateau-chats-noirs/index.html"
 to = "/invites-et-partenaires/arthur-plateau/"
 
 [[redirects]]
-from = "/evenements/2024-07-07-salon-de-micro-editions-fanzines-et-multiples-1/"
+from = "/evenements/2024-07-07-salon-de-micro-editions-fanzines-et-multiples-1/index.html"
 to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples-1/"
 
 [[redirects]]
-from = "/organisations/alice-monvaillier/"
+from = "/organisations/alice-monvaillier/index.html"
 to = "/invites-et-partenaires/alice-monvaillier/"
 
 [[redirects]]
-from = "/l-insoleuse/"
+from = "/l-insoleuse/index.html"
 to = "/invites-et-partenaires/l-insoleuse/"
 
 [[redirects]]
-from = "/organisations/atelier-temeraire/"
+from = "/organisations/atelier-temeraire/index.html"
 to = "/invites-et-partenaires/atelier-temeraire/"
 
 [[redirects]]
-from = "/invites-et-partenaires/post-fire-books/"
+from = "/invites-et-partenaires/post-fire-books/index.html"
 to = "/invites-et-partenaires/postfirebooks/"
 
 [[redirects]]
-from = "/2024/07/"
+from = "/2024/07/index.html"
 to = "/evenements/2024/07/"
 
 [[redirects]]
-from = "/evenements/2024-06-29-test/"
+from = "/evenements/2024-06-29-test/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
 
