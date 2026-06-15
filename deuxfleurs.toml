@@ -60,7 +60,7 @@ to = "/invites-et-partenaires/drac-nouvelle-aquitaine/"
 
 [[redirects]]
 from = "/2024/salon-de-micro-editions-fanzines-et-multiples/index.html"
-to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples/"
+to = "/evenements/2026/salon-de-micro-editions-fanzines-et-multiples/"
 
 [[redirects]]
 from = "/2024/12/index.html"
@@ -68,7 +68,7 @@ to = "/evenements/2024/12/"
 
 [[redirects]]
 from = "/evenements/2024-07-06-salon-de-micro-editions-fanzines-et-multiples/index.html"
-to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples/"
+to = "/evenements/2026/salon-de-micro-editions-fanzines-et-multiples/"
 
 [[redirects]]
 from = "/organisations/disparate/index.html"
@@ -77,6 +77,10 @@ to = "/invites-et-partenaires/disparate/"
 [[redirects]]
 from = "/drac-nouvelle-aquitaine/index.html"
 to = "/invites-et-partenaires/drac-nouvelle-aquitaine/"
+
+[[redirects]]
+from = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples/index.html"
+to = "/evenements/2026/salon-de-micro-editions-fanzines-et-multiples/"
 
 [[redirects]]
 from = "/2024/01/index.html"
