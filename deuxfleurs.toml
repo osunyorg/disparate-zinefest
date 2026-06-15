@@ -23,10 +23,6 @@ from = "/exposantes/index.html"
 to = "/invites/"
 
 [[redirects]]
-from = "/invites-et-partenaires/les-lilas-boris-dugland-detraz/index.html"
-to = "/invites-et-partenaires/les-lilas-boris-detraz/"
-
-[[redirects]]
 from = "/2024/08/index.html"
 to = "/evenements/2024/08/"
 
@@ -41,10 +37,6 @@ to = "/invites-et-partenaires/categories/exposant-e/"
 [[redirects]]
 from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
-
-[[redirects]]
-from = "/organisations/arthur-plateau-chats-noirs/index.html"
-to = "/invites-et-partenaires/arthur-plateau/"
 
 [[redirects]]
 from = "/evenements/2024-07-03-test/index.html"
@@ -133,10 +125,6 @@ to = "/evenements/2024/05/"
 [[redirects]]
 from = "/evenements/2024-07-04-ateliers-de-pratique-artistique/index.html"
 to = "/evenements/2024/ateliers-de-pratique-artistique/"
-
-[[redirects]]
-from = "/organisations/palefroi/index.html"
-to = "/invites-et-partenaires/palefroi/"
 
 [[redirects]]
 from = "/categories/partenaire/index.html"
@@ -233,10 +221,6 @@ to = "/invites-et-partenaires/"
 [[redirects]]
 from = "/2024/atelier-fanzine-collectif/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
-
-[[redirects]]
-from = "/invites-et-partenaires/arthur-plateau-chats-noirs/index.html"
-to = "/invites-et-partenaires/arthur-plateau/"
 
 [[redirects]]
 from = "/evenements/2024-07-07-salon-de-micro-editions-fanzines-et-multiples-1/index.html"
