@@ -115,6 +115,10 @@ from = "/la-fabrique-pola/index.html"
 to = "/invites-et-partenaires/la-fabrique-pola/"
 
 [[redirects]]
+from = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples-1/index.html"
+to = "/evenements/2026/salon-de-micro-editions-fanzines-et-multiples-1/"
+
+[[redirects]]
 from = "/agenda/index.html"
 to = "/evenements/"
 
@@ -180,7 +184,7 @@ to = "/invites-et-partenaires/"
 
 [[redirects]]
 from = "/evenements/2024-07-07-salon-de-micro-editions-fanzines-et-multiples-1/index.html"
-to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples-1/"
+to = "/evenements/2026/salon-de-micro-editions-fanzines-et-multiples-1/"
 
 [[redirects]]
 from = "/l-insoleuse/index.html"
