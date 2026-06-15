@@ -39,10 +39,6 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
-from = "/evenements/2024-07-03-test/index.html"
-to = "/evenements/2024/atelier-fanzine-collectif/"
-
-[[redirects]]
 from = "/n-a-qu-1-oeil/index.html"
 to = "/invites-et-partenaires/n-a-qu-1-oeil/"
 
@@ -83,24 +79,12 @@ from = "/drac-nouvelle-aquitaine/index.html"
 to = "/invites-et-partenaires/drac-nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/evenements/2024-07-03-vernissage-de-lexposition-rondo-de-palefroi/index.html"
-to = "/evenements/2024/vernissage-de-lexposition-rondo-de-palefroi/"
-
-[[redirects]]
 from = "/2024/01/index.html"
 to = "/evenements/2024/01/"
 
 [[redirects]]
-from = "/evenements/2024-06-29-atelier-fanzine-collectif/index.html"
-to = "/evenements/2024/atelier-fanzine-collectif/"
-
-[[redirects]]
 from = "/2024/02/index.html"
 to = "/evenements/2024/02/"
-
-[[redirects]]
-from = "/2024/ateliers-de-pratique-artistique/index.html"
-to = "/evenements/2024/ateliers-de-pratique-artistique/"
 
 [[redirects]]
 from = "/la-halle-des-douves/index.html"
@@ -109,10 +93,6 @@ to = "/invites-et-partenaires/la-halle-des-douves/"
 [[redirects]]
 from = "/2024/05/index.html"
 to = "/evenements/2024/05/"
-
-[[redirects]]
-from = "/evenements/2024-07-04-ateliers-de-pratique-artistique/index.html"
-to = "/evenements/2024/ateliers-de-pratique-artistique/"
 
 [[redirects]]
 from = "/categories/partenaire/index.html"
@@ -127,16 +107,8 @@ from = "/invites-et-partenaires/exposant-e/index.html"
 to = "/invites-et-partenaires/categories/exposant-e/"
 
 [[redirects]]
-from = "/2024/vernissage-de-lexposition-rondo-de-palefroi/index.html"
-to = "/evenements/2024/vernissage-de-lexposition-rondo-de-palefroi/"
-
-[[redirects]]
 from = "/la-fabrique-pola/index.html"
 to = "/invites-et-partenaires/la-fabrique-pola/"
-
-[[redirects]]
-from = "/evenements/2024-07-05-test/index.html"
-to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
 from = "/agenda/index.html"
@@ -156,7 +128,7 @@ to = "/invites-et-partenaires/categories/partenaire/"
 
 [[redirects]]
 from = "/evenements/2024-07-06-street-party/index.html"
-to = "/evenements/2024/street-party/"
+to = "/evenements/2026/street-party/"
 
 [[redirects]]
 from = "/organisations/exposant-e/index.html"
@@ -184,7 +156,11 @@ to = "/evenements/2024/06/"
 
 [[redirects]]
 from = "/2024/street-party/index.html"
-to = "/evenements/2024/street-party/"
+to = "/evenements/2026/street-party/"
+
+[[redirects]]
+from = "/evenements/2024/street-party/index.html"
+to = "/evenements/2026/street-party/"
 
 [[redirects]]
 from = "/2024/index.html"
@@ -197,10 +173,6 @@ to = "/invites-et-partenaires/la-fabrique-pola/"
 [[redirects]]
 from = "/organisations/index.html"
 to = "/invites-et-partenaires/"
-
-[[redirects]]
-from = "/2024/atelier-fanzine-collectif/index.html"
-to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
 from = "/evenements/2024-07-07-salon-de-micro-editions-fanzines-et-multiples-1/index.html"
@@ -217,8 +189,4 @@ to = "/invites-et-partenaires/postfirebooks/"
 [[redirects]]
 from = "/2024/07/index.html"
 to = "/evenements/2024/07/"
-
-[[redirects]]
-from = "/evenements/2024-06-29-test/index.html"
-to = "/evenements/2024/atelier-fanzine-collectif/"
 
