@@ -123,10 +123,6 @@ from = "/agenda/index.html"
 to = "/evenements/"
 
 [[redirects]]
-from = "/invites-et-partenaires/linsoleuse/index.html"
-to = "/invites-et-partenaires/l-insoleuse/"
-
-[[redirects]]
 from = "/2024/03/index.html"
 to = "/evenements/2024/03/"
 
