@@ -63,10 +63,6 @@ from = "/n-a-qu-1-oeil/index.html"
 to = "/invites-et-partenaires/n-a-qu-1-oeil/"
 
 [[redirects]]
-from = "/organisations/chasse-goupille/index.html"
-to = "/invites-et-partenaires/chasse-goupille/"
-
-[[redirects]]
 from = "/organisations/grante-egle/index.html"
 to = "/invites-et-partenaires/grante-egle/"
 
@@ -139,16 +135,8 @@ from = "/2024/ateliers-de-pratique-artistique/index.html"
 to = "/evenements/2024/ateliers-de-pratique-artistique/"
 
 [[redirects]]
-from = "/organisations/aux-enfants-du-talus/index.html"
-to = "/invites-et-partenaires/aux-enfants-du-talus/"
-
-[[redirects]]
 from = "/la-halle-des-douves/index.html"
 to = "/invites-et-partenaires/la-halle-des-douves/"
-
-[[redirects]]
-from = "/organisations/adele-frost/index.html"
-to = "/invites-et-partenaires/adele-frost/"
 
 [[redirects]]
 from = "/2024/05/index.html"
@@ -161,10 +149,6 @@ to = "/evenements/2024/ateliers-de-pratique-artistique/"
 [[redirects]]
 from = "/organisations/palefroi/index.html"
 to = "/invites-et-partenaires/palefroi/"
-
-[[redirects]]
-from = "/organisations/free-hands-fanzine/index.html"
-to = "/invites-et-partenaires/cellophane-micro-edition-free-hands-fanzine/"
 
 [[redirects]]
 from = "/categories/partenaire/index.html"
@@ -205,10 +189,6 @@ to = "/invites-et-partenaires/l-insoleuse/"
 [[redirects]]
 from = "/2024/03/index.html"
 to = "/evenements/2024/03/"
-
-[[redirects]]
-from = "/organisations/chloe-cavalier/index.html"
-to = "/invites-et-partenaires/chloe-cavalier/"
 
 [[redirects]]
 from = "/organisations/du-noir-sous-les-ongles/index.html"
@@ -279,16 +259,8 @@ from = "/evenements/2024-07-07-salon-de-micro-editions-fanzines-et-multiples-1/i
 to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples-1/"
 
 [[redirects]]
-from = "/organisations/alice-monvaillier/index.html"
-to = "/invites-et-partenaires/alice-monvaillier/"
-
-[[redirects]]
 from = "/l-insoleuse/index.html"
 to = "/invites-et-partenaires/l-insoleuse/"
-
-[[redirects]]
-from = "/organisations/atelier-temeraire/index.html"
-to = "/invites-et-partenaires/atelier-temeraire/"
 
 [[redirects]]
 from = "/invites-et-partenaires/post-fire-books/index.html"
