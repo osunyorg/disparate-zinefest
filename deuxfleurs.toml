@@ -151,10 +151,6 @@ from = "/evenements/2024-07-05-test/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
-from = "/organisations/editions-microgram/index.html"
-to = "/invites-et-partenaires/editions-microgram/"
-
-[[redirects]]
 from = "/agenda/index.html"
 to = "/evenements/"
 
