@@ -27,10 +27,6 @@ from = "/invites-et-partenaires/les-lilas-boris-dugland-detraz/index.html"
 to = "/invites-et-partenaires/les-lilas-boris-detraz/"
 
 [[redirects]]
-from = "/organisations/fripouilles/index.html"
-to = "/invites-et-partenaires/fripouilles/"
-
-[[redirects]]
 from = "/2024/08/index.html"
 to = "/evenements/2024/08/"
 
@@ -69,14 +65,6 @@ to = "/invites-et-partenaires/grante-egle/"
 [[redirects]]
 from = "/organisations/ville-de-bordeaux/index.html"
 to = "/invites-et-partenaires/ville-de-bordeaux/"
-
-[[redirects]]
-from = "/organisations/gazzeta-ultra/index.html"
-to = "/invites-et-partenaires/gazzeta-ultra/"
-
-[[redirects]]
-from = "/organisations/collectif-sapin/index.html"
-to = "/invites-et-partenaires/collectif-sapin/"
 
 [[redirects]]
 from = "/organisations/editions-adverse/index.html"
@@ -189,10 +177,6 @@ to = "/invites-et-partenaires/l-insoleuse/"
 [[redirects]]
 from = "/2024/03/index.html"
 to = "/evenements/2024/03/"
-
-[[redirects]]
-from = "/organisations/du-noir-sous-les-ongles/index.html"
-to = "/invites-et-partenaires/du-noir-sous-les-ongles/"
 
 [[redirects]]
 from = "/invites-et-partenaires/partenaire/index.html"
