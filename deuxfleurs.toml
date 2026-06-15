@@ -43,10 +43,6 @@ from = "/evenements/2024-07-03-test/index.html"
 to = "/evenements/2024/atelier-fanzine-collectif/"
 
 [[redirects]]
-from = "/evenements/2024-07-05-lancement-et-exposition-musique-du-diable-iii/index.html"
-to = "/evenements/2024/lancement-et-exposition-musique-du-diable-iii/"
-
-[[redirects]]
 from = "/n-a-qu-1-oeil/index.html"
 to = "/invites-et-partenaires/n-a-qu-1-oeil/"
 
@@ -77,14 +73,6 @@ to = "/evenements/2024/12/"
 [[redirects]]
 from = "/evenements/2024-07-06-salon-de-micro-editions-fanzines-et-multiples/index.html"
 to = "/evenements/2024/salon-de-micro-editions-fanzines-et-multiples/"
-
-[[redirects]]
-from = "/2024/soiree-concerts/index.html"
-to = "/evenements/2024/soiree-concerts/"
-
-[[redirects]]
-from = "/2024/lancement-et-exposition-musique-du-diable-iii/index.html"
-to = "/evenements/2024/lancement-et-exposition-musique-du-diable-iii/"
 
 [[redirects]]
 from = "/organisations/disparate/index.html"
@@ -205,10 +193,6 @@ to = "/evenements/2024/"
 [[redirects]]
 from = "/organisations/la-fabrique-pola/index.html"
 to = "/invites-et-partenaires/la-fabrique-pola/"
-
-[[redirects]]
-from = "/evenements/2024-07-04-soiree-concerts/index.html"
-to = "/evenements/2024/soiree-concerts/"
 
 [[redirects]]
 from = "/organisations/index.html"
