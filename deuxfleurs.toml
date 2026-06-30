@@ -47,10 +47,6 @@ from = "/organisations/ville-de-bordeaux/index.html"
 to = "/invites-et-partenaires/ville-de-bordeaux/"
 
 [[redirects]]
-from = "/evenements/2026/tables-rondes-et-presentations/index.html"
-to = "/evenements/2026/tables-rondes-presentations-lectures/"
-
-[[redirects]]
 from = "/organisations/editions-adverse/index.html"
 to = "/invites-et-partenaires/editions-adverse/"
 
